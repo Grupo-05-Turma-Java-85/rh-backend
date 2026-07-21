@@ -10,6 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.DecimalMax;
 import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -27,8 +28,9 @@ public class RH {
 	@Column(length = 50)
 	private String nome;
 	
-	@NotBlank(message = "O atributo cpf é obrigatório!")
-	@Size(max = 255, message = "O atributo cpf deve ter no máximo 255 caracteres.")
+    @Email(message = "Informe um e-mail válido")
+	@NotBlank(message = "O atributo email é obrigatório!")
+	@Size(max = 255, message = "O atributo email deve ter no máximo 255 caracteres.")
 	@Column(length = 255)
 	private String email;
 	
@@ -81,8 +83,6 @@ public class RH {
 		this.cargo = cargo;
 	}
 
-	
-	
 	
 	
 

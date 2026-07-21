@@ -3,7 +3,7 @@
 <div align="center">     <img src="https://i.imgur.com/Ei8epc3.png" title="source: imgur.com" width="30%"/> </div>
 
 <div align="center">
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) 
+ 
 
 ![GitHub language count](https://img.shields.io/github/languages/count/Grupo-05-Turma-Java-85/rh-backend)![GitHub top language](https://img.shields.io/github/languages/top/Grupo-05-Turma-Java-85/rh-backend)![GitHub repo size](https://img.shields.io/github/repo-size/Grupo-05-Turma-Java-85/rh-backend)![GitHub last commit](https://img.shields.io/github/last-commit/Grupo-05-Turma-Java-85/rh-backend)
 
@@ -19,7 +19,7 @@ O **RH FitHub** é uma API Back-end desenvolvida para auxiliar no gerenciamento 
 
 *O* **RH FitHub** *é uma API REST desenvolvida para o gerenciamento de recursos humanos de empresas do segmento fitness. O sistema permite cadastrar, consultar, atualizar e excluir informações de colaboradores e cargos, facilitando a organização e o controle dos dados de forma prática e eficiente.*
 
-*O projeto foi desenvolvido utilizando* **Java***,* **Spring Boot***,* **Spring Data JPA***,* **Hibernate** *e* **MySQL***, seguindo a arquitetura REST e boas práticas de desenvolvimento Back-end. Para a persistência dos dados, foi utilizado um* **banco de dados relacional MySQL***, integrado à aplicação por meio do JPA/Hibernate, garantindo um gerenciamento seguro e eficiente das informações.*
+*O projeto foi desenvolvido utilizando* **Java**, **Spring Boot**, **Spring Data JPA**, **Hibernate** *e* **MySQL**, seguindo a arquitetura REST e boas práticas de desenvolvimento Back-end. Para a persistência dos dados, foi utilizado um* **banco de dados relacional MySQL***, integrado à aplicação por meio do JPA/Hibernate, garantindo um gerenciamento seguro e eficiente das informações.*
 
 # 
 

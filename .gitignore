@@ -1,33 +1,49 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# ================================
+# Arquivos comuns de Java
+# ================================
+*.class
+*.jar
+*.war
+*.ear
+*.log
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# ================================
+# Pastas de build/output
+# ================================
+bin/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+target/
+out/
 
-### VS Code ###
+# ================================
+# Eclipse / Spring Tool Suite (STS)
+# ================================
+.classpath
+.project
+.settings/
+.springBeans
+.factorypath
+.metadata/
+
+# ================================
+# IntelliJ IDEA
+# ================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ================================
+# VS Code
+# ================================
 .vscode/
+
+# ================================
+# Arquivos de sistema (Windows / macOS / Linux)
+# ================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
